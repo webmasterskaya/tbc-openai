@@ -1,0 +1,38 @@
+{
+  "name": "webmasterskaya/tbc-openai",
+  "type": "library",
+  "description": "Telegram bot command for working with OpenAI API",
+  "keywords": [
+    "telegram",
+    "bot",
+    "php",
+    "php telegram bot",
+    "openai",
+    "chatgpt",
+    "telegram openai",
+    "telegram chatgpt"
+  ],
+  "license": "MIT",
+  "homepage": "https://git.webmasterskaya.xyz/tbc/tbc-openai",
+  "support": {
+    "issues": "https://git.webmasterskaya.xyz/tbc/tbc-openai/issues",
+    "source": "https://git.webmasterskaya.xyz/tbc/tbc-openai"
+  },
+  "authors": [
+    {
+      "name": "Artem Vasilev aka kernusr",
+      "email": "kern.usr@gmail.com",
+      "homepage": "https://webmasterskaya.xyz/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "longman/telegram-bot": "^0.82.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webmasterskaya\\TelegramBotCommands\\": "src/"
+    }
+  }
+}
